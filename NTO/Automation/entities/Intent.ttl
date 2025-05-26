@@ -14,9 +14,12 @@ ogit.Automation:Intent
   ogit:blob "true";
   ogit:parent "http://www.purl.org/ogit/Node";
   ogit:mandatory-attributes (
+    ogit:description
   );
   ogit:optional-attributes (
-    ogit:description
+    ogit.Automation:systemVariableNames
+    ogit.Automation:systemVariableValues
+    ogit.Automation:userVariables
   );
   ogit:indexed-attributes (
   );

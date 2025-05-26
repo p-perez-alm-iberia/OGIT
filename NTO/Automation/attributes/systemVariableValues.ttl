@@ -1,0 +1,14 @@
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Automation:systemVariableValues
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "systemVariableValues";
+	dcterms:description "Json consturct where the key is a index starting at 0 and the value is the value of the system variable.";
+	dcterms:valid "start=2025-05-26;";
+	dcterms:creator "Calvin Spolwind";
+.
