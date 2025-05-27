@@ -8,7 +8,7 @@ ogit.Automation:systemVariableNames
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "systemVariableNames";
-	dcterms:description "Json construct where the key is a index starting at 0 and the value is the name of the system variable.";
+	dcterms:description "Comma separated string of system variable names. The order corresponds to the order in Automation:systemVariablValues.";
 	dcterms:valid "start=2025-05-26;";
 	dcterms:creator "Calvin Spolwind";
 .
