@@ -8,7 +8,7 @@ ogit.Automation:systemVariableValues
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "systemVariableValues";
-	dcterms:description "Comma separated string of values for the system variables. The order corresponds to the order in Automation:systemVariableNames.";
+	dcterms:description "Comma separated string of system variable values. The order corresponds to the order in Automation:systemVariableNames.";
 	dcterms:valid "start=2025-05-26;";
 	dcterms:creator "Calvin Spolwind";
 .
