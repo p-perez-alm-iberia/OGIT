@@ -24,6 +24,7 @@ ogit.Automation:Intent
   ogit:indexed-attributes (
   );
   ogit:allowed (
+      [ ogit:has  ogit:Attachment ]
 			[ ogit:has  ogit.Automation:Variable ]
   );
 .
