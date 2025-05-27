@@ -8,7 +8,7 @@ ogit.Automation:systemVariableValues
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "systemVariableValues";
-	dcterms:description "Json consturct where the key is a index starting at 0 and the value is the value of the system variable.";
+	dcterms:description "Json construct where the key is a index starting at 0 and the value is the value of the system variable.";
 	dcterms:valid "start=2025-05-26;";
 	dcterms:creator "Calvin Spolwind";
 .
