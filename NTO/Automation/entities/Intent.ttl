@@ -14,17 +14,17 @@ ogit.Automation:Intent
   ogit:blob "true";
   ogit:parent "http://www.purl.org/ogit/Node";
   ogit:mandatory-attributes (
-    ogit:description
+		ogit:description
   );
   ogit:optional-attributes (
-    ogit.Automation:systemVariableNames
-    ogit.Automation:systemVariableValues
-    ogit.Automation:userVariables
+		ogit.Automation:systemVariableNames
+		ogit.Automation:systemVariableValues
+		ogit.Automation:userVariables
   );
-  ogit:indexed-attributes (
+		ogit:indexed-attributes (
   );
   ogit:allowed (
-      [ ogit:has  ogit:Attachment ]
-			[ ogit:has  ogit.Automation:Variable ]
+		[ ogit:has  ogit:Attachment ]
+		[ ogit:utilizes  ogit.Automation:Variable ]
   );
 .
