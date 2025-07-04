@@ -34,6 +34,7 @@ IssueCondition is processed first.""";
 		ogit.Automation:processingTimestamp
 		ogit:modificationTime
 		ogit:creationTime
+		ogit:deliveredAt
 		ogit.Automation:isDeployed
 		ogit.Automation:deployStatus
 		ogit.Automation:parentIssue
