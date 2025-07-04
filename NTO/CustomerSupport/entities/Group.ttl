@@ -35,6 +35,6 @@ ogit.CustomerSupport:Group
     ogit:allowed              (
                                 [ ogit:uses ogit:Product ]
                                 [ ogit:provides ogit:Comment ]
-                                [ ogit:isResponsibleFor ogit:ServiceManagement:Ticket ]                                
+                                [ ogit:isResponsibleFor ogit.ServiceManagement:Ticket ]                                
                               ) ;
 .
