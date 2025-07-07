@@ -27,12 +27,19 @@ the global ontology. The storage of data through this entity is discouraged due 
 		
 	);
 	ogit:optional-attributes (
-		
+		ogit:name
+		ogit:description
+		ogit:class
+		ogit:id
 	);
 	ogit:indexed-attributes (
 		
 	);
 	ogit:allowed (
 			[ ogit:uses  ogit:CustomApplicationData ]
+			[ ogit:sends  ogit:CustomApplicationData ]
+			[ ogit:triggers  ogit:CustomApplicationData ]
+			[ ogit:competes  ogit:CustomApplicationData ]
+			[ ogit:alerts  ogit:CustomApplicationData ]
 	);
 .
