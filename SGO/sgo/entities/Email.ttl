@@ -16,7 +16,7 @@ ogit:Email
 	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
 		ogit:status
-		ogit:writer
+		ogit:author
 		ogit:recipients
 	);
 	ogit:optional-attributes (
