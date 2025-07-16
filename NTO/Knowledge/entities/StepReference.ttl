@@ -1,15 +1,14 @@
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
-@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Knowledge:AcquisitionSession
+ogit.Knowledge:StepReference
     a rdfs:Class;
     rdfs:subClassOf ogit:Entity;
-    rdfs:label "AcquisitionSession";
-    dcterms:description "Entity to describe a Knowledge Acquisition Session, linking to Conversation, Structured Task Steps and the Knowledge";
+    rdfs:label "Step";
+    dcterms:description "this is a reference to an already existing step";
     # For ranges, see http://dublincore.org/documents/dcmi-period/
     dcterms:valid "start=2017-03-14;";
     dcterms:creator "cwalker@arago.de";
@@ -19,19 +18,13 @@ ogit.Knowledge:AcquisitionSession
 
     );
     ogit:optional-attributes (
-        ogit:title
-        ogit:description
-        ogit.Knowledge:archived
-        ogit:version
+        ogit:positionNumber
     );
     ogit:indexed-attributes (
-        ogit:title
-        ogit:description
+
     );
     ogit:allowed (
-        [ ogit:contains  ogit:Comment ]
-        [ ogit:contains  ogit.Knowledge:AcquisitionRoom ]
-        [ ogit:defines  ogit.Automation:KnowledgeItem ]
-        [ ogit:defines  ogit.Knowledge:Step ]
+        [ ogit:references ogit.Knowledge:Step ]
+        [ ogit:contains  ogit.Knowledge:Step ]
     );
 .

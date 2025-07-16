@@ -1,27 +1,32 @@
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
 
 ogit.Knowledge:Step
-	a rdfs:Class;
-	rdfs:subClassOf ogit:Entity;
-	rdfs:label "Step";
-	dcterms:description "this is the description of a single - hopefully atomic - step in (potentially multi-step) process";
-	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2017-03-14;";
-	dcterms:creator "cwalker@arago.de";
-	ogit:scope "NTO";
-	ogit:parent ogit:Node;
-	ogit:mandatory-attributes (
+    a rdfs:Class;
+    rdfs:subClassOf ogit:Entity;
+    rdfs:label "Step";
+    dcterms:description "this is the description of a single - hopefully atomic - step in (potentially multi-step) process";
+    # For ranges, see http://dublincore.org/documents/dcmi-period/
+    dcterms:valid "start=2017-03-14;";
+    dcterms:creator "cwalker@arago.de";
+    ogit:scope "NTO";
+    ogit:parent ogit:Node;
+    ogit:mandatory-attributes (
 
-	);
-	ogit:optional-attributes (
+    );
+    ogit:optional-attributes (
+        ogit:title
+        ogit:description
+        ogit:positionNumber
+    );
+    ogit:indexed-attributes (
 
-	);
-	ogit:indexed-attributes (
-
-	);
-	ogit:allowed (
-	);
+    );
+    ogit:allowed (
+        [ ogit:defines   ogit.Automation:KnowledgeItem ]
+        [ ogit:contains  ogit.Knowledge:Step ]
+    );
 .
