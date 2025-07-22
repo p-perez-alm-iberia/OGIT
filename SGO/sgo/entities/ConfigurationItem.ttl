@@ -61,6 +61,7 @@ ogit:ConfigurationItem
 		ogit:faultCount
 		ogit:updateCount
 		ogit:lastUpdatedAt
+		ogit:lastUpdatedBy
 		ogit:createdAt
 		ogit:startedAt
 		ogit:installedAt
