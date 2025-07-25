@@ -30,6 +30,7 @@ ogit.Forms:FormField
 	ogit:indexed-attributes (
 	);
 	ogit:allowed (
+		[ ogit:references  ogit.Forms:FormField ]
 		[ ogit:complies  ogit.Legal:LegalClause ]
 		[ ogit:complies  ogit.Legal:LegalNorm ]
 	);
