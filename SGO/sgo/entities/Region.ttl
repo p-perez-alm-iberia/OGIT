@@ -24,11 +24,8 @@ ogit:Region
 		ogit:area
 		ogit.FinancialMarket:currency
 		ogit.CustomerSupport:timeZone
-		ogit.GeoProfile:gdp
 		ogit.GeoProfile:isoCode
 		ogit.GeoProfile:politicalSystem
-		ogit.GeoProfile:population
-		ogit.GeoProfile:religiousDemographic
 		ogit.GeoProfile:spokenLanguages
 	);
 	ogit:indexed-attributes (
@@ -37,5 +34,6 @@ ogit:Region
 	ogit:allowed (
 		[ ogit:capitalOf  ogit:Region ]
 		[ ogit:locatedIn  ogit:Region ]
+		[ ogit:generates  ogit:Timeseries ]
 	);
 .
