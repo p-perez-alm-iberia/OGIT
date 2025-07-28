@@ -20,7 +20,7 @@ ogit:Region
 	ogit:optional-attributes (
 		ogit:name
 		ogit:description
-		ogit:class
+		ogit:type
 		ogit:area
 		ogit.FinancialMarket:currency
 		ogit.CustomerSupport:timeZone
