@@ -36,5 +36,6 @@ ogit:Region
 	);
 	ogit:allowed (
 		[ ogit:capitalOf  ogit:Region ]
+		[ ogit:locatedIn  ogit:Region ]
 	);
 .
