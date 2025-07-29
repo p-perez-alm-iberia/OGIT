@@ -52,6 +52,8 @@ ogit.MARS:Machine
             ogit.MARS.Machine:ram
             ogit.MARS.Machine:cpuCores
 
+            ogit:source
+            ogit:sourceId
             ogit:tenantId
 	);
         ogit:indexed-attributes (
