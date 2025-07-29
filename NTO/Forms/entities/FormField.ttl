@@ -24,12 +24,14 @@ ogit.Forms:FormField
 		ogit:version
 		ogit:content
 		ogit:status
-        ogit:description
-        ogit:subType
+		ogit:description
+		ogit:subType
+		ogit:type
 	);
 	ogit:indexed-attributes (
 	);
 	ogit:allowed (
+		[ ogit:references  ogit.Forms:FormField ]
 		[ ogit:complies  ogit.Legal:LegalClause ]
 		[ ogit:complies  ogit.Legal:LegalNorm ]
 	);
