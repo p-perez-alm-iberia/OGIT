@@ -23,7 +23,9 @@ ogit.Forms:Form
 		ogit:version
 		ogit:content
 		ogit:status
-        ogit:description
+		ogit:description
+		ogit:subType
+		ogit:type
 	);
 	ogit:indexed-attributes (
 	);
