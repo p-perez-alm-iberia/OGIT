@@ -40,6 +40,7 @@ ogit.ServiceManagement:Service
 		ogit:content
 		ogit:status
 		ogit:email 	
+		ogit:tenantId
 	);
 	ogit:indexed-attributes (
 		
