@@ -18,27 +18,28 @@ One of the basic principles is: _evolution over standardization_.
 
 Find out more about OGIT using the following links.
 
-* [Basic Concepts](https://github.com/arago/OGIT/wiki/Basic-Concepts)
-* [OGIT ontology details](https://github.com/arago/OGIT/wiki/OGIT-ontology-details)
-* [Maintaining the ontology](https://github.com/arago/OGIT/wiki/Maintaining-the-ontology)
+* [Basic Concepts](https://github.com/almatoai/OGIT/wiki/Basic-Concepts)
+* [OGIT ontology details](https://github.com/almatoai/OGIT/wiki/OGIT-ontology-details)
+* [Maintaining the ontology](https://github.com/almatoai/OGIT/wiki/Maintaining-the-ontology)
 * Get started with an implementation:
-	+ [Using OGIT in Apache Jena Fuseki](https://github.com/arago/OGIT/wiki/Using-Fuseki)
-	+ [Using OGIT with Apache Tinkerpop](https://github.com/arago/OGIT/wiki/Using-Tinkerpop)
-	+ [Using OGIT in Cayley](https://github.com/arago/OGIT/wiki/Using-Cayley)
+	+ [Using OGIT in Apache Jena Fuseki](https://github.com/almatoai/OGIT/wiki/Using-Fuseki)
+	+ [Using OGIT with Apache Tinkerpop](https://github.com/almatoai/OGIT/wiki/Using-Tinkerpop)
+	+ [Using OGIT in Cayley](https://github.com/almatoai/OGIT/wiki/Using-Cayley)
 * [High level use cases](https://github.com/arago/OGIT/wiki/High-level-use-cases)
 * [Contributing to the ontology](https://github.com/arago/OGIT/wiki/Contributing)
 
-## Bardioc Documentation
+## GraphIT Documentation
 
-There is an application called [Bardioc](https://www.almato.com/de/loesungen/almato-bardioc) that allows you to
+There is an application called [GraphIT](https://graphit.co) that allows you to
 manage IT data through a RESTful API ensuring compliance to the OGIT ontology.
 
-The following links provide more information on OGIT and Bardioc.
+The following links provide more information on OGIT and GraphIT.
 
 (Pages updated on daily basis)
 
 * [OGIT documentation](https://arago.github.io/OGIT/) for all elements of the OGIT ontology
 * [OGIT namespace documentation](https://arago.github.io/OGIT/downloads)- documentation as PDF and Diagram for each namespace of the OGIT ontology
+* [GraphIT developer resources](https://docs.hiro.arago.co) (free registration required)
 
 ### namespace specific Documentation
 * Requirements
@@ -52,10 +53,6 @@ sh namespace.sh namespacename
 ````
 * It will generate the pdf and png files which can be found under folder with namespacename (for ex. MRP, Accounting etc). 
 * For Example, **sh namespace.sh mrp** will generate the documentation for MRP namepsace under **MRP folder**.
-## Updating the Local GraphIT Ontology
-
-Once OGIT master branch is updated, the changes are automatically built and pushed to
-https://github.com/arago/OGIT/releases
 
 ## Getting Support
 
