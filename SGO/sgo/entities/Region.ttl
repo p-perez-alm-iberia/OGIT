@@ -2,7 +2,6 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.GeoProfile: <http://www.purl.org/ogit/GeoProfile/> .
-@prefix ogit.FinancialMarket: <http://www.purl.org/ogit/FinancialMarket/> .
 
 ogit:Region
 	a rdfs:Class;
@@ -23,7 +22,7 @@ ogit:Region
 		ogit:type
 		ogit:area
 		ogit.FinancialMarket:currency
-		ogit.CustomerSupport:timeZone
+		ogit.GeoProfile:timeZone
 		ogit.GeoProfile:isoCode
 		ogit.GeoProfile:politicalSystem
 		ogit.GeoProfile:spokenLanguages
