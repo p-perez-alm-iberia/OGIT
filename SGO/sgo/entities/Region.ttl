@@ -27,6 +27,7 @@ ogit:Region
 		ogit.GeoProfile:isoCode
 		ogit.GeoProfile:politicalSystem
 		ogit.GeoProfile:spokenLanguages
+		ogit:sharedWith
 	);
 	ogit:indexed-attributes (
 		
