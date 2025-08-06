@@ -23,7 +23,7 @@ ogit:Region
 		ogit:type
 		ogit:area
 		ogit.FinancialMarket:currency
-		ogit.GeoProfile:timeZone
+		ogit:timeZone
 		ogit.GeoProfile:isoCode
 		ogit.GeoProfile:politicalSystem
 		ogit.GeoProfile:spokenLanguages
