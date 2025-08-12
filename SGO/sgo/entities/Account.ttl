@@ -33,6 +33,9 @@ ogit:Account
 		
 	);
 	ogit:allowed (
+			[ ogit:reports  ogit.ServiceManagement:Ticket ]
+			[ ogit:creates  ogit.ServiceManagement:Ticket ]
+			[ ogit:creates  ogit:Comment ]
 			[ ogit:follows  ogit:Account ]
 			[ ogit:connects  ogit:Person ]
 	);
