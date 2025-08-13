@@ -44,6 +44,7 @@ ogit.ServiceManagement:Ticket
 		ogit:openedAt
 		ogit:closedAt
 		ogit:lastUpdatedAt
+		ogit:source
 		ogit:sourceId
 		ogit:subject
 		ogit:reviewedAt
@@ -62,6 +63,7 @@ ogit.ServiceManagement:Ticket
 			[ ogit:relates  ogit.ServiceManagement:Ticket ]
 			[ ogit:causes  ogit.ServiceManagement:Ticket ]
 			[ ogit:assignedTo  ogit:Person ]
+			[ ogit:assignedTo  ogit:Account ]
 			[ ogit:assignedTo  ogit:Organization ]
 			[ ogit:assignedTo  ogit.ServiceManagement:Service ]
 			[ ogit:reportedOn  ogit.MARS:Machine ]

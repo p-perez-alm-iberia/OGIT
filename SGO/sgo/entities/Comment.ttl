@@ -40,6 +40,7 @@ ogit:Comment
 		ogit:type
 		ogit:source
 		ogit:createdAt
+		ogit:public
 	);
 	ogit:indexed-attributes (
 		

@@ -1,4 +1,5 @@
 @prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.ServiceManagement:   <http://www.purl.org/ogit/ServiceManagement/> .
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
@@ -33,6 +34,9 @@ ogit:Account
 		
 	);
 	ogit:allowed (
+			[ ogit:reports  ogit.ServiceManagement:Ticket ]
+			[ ogit:creates  ogit.ServiceManagement:Ticket ]
+			[ ogit:creates  ogit:Comment ]
 			[ ogit:follows  ogit:Account ]
 			[ ogit:connects  ogit:Person ]
 	);

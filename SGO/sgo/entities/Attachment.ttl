@@ -56,6 +56,7 @@ stored directly in the graph itself or be referenced by an external url link."""
 			[ ogit:belongs  ogit.ServiceManagement:SubTask ]
 			[ ogit:belongs  ogit:Organization ]
 			[ ogit:belongs  ogit:Person ]
+			[ ogit:belongs  ogit:Account ]
 			[ ogit:belongs  ogit.MARS:Machine ]
 			[ ogit:belongs  ogit.MARS:Software ]
 			[ ogit:belongs  ogit.MARS:Resource ]
