@@ -1,7 +1,6 @@
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 @prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
-@prefix ogit.CustomerSupport: <http://www.purl.org/ogit/CustomerSupport/> .
 @prefix ogit.Automation: 	    <http://www.purl.org/ogit/Automation/> .
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
@@ -41,7 +40,6 @@ ogit:Comment
 		ogit:type
 		ogit:source
 		ogit:createdAt
-		ogit.CustomerSupport:public
 	);
 	ogit:indexed-attributes (
 		
