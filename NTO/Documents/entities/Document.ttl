@@ -26,5 +26,6 @@ ogit.Documents:Document
     );
     ogit:allowed (
 			[ ogit:consistsOf  ogit:Attachment ]
+			[ ogit:represents  ogit.Forms:Form ]
 	);
 .
