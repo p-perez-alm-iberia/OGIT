@@ -88,7 +88,7 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 			[ ogit:creates  ogit:Organization ]
 			[ ogit:creates  ogit:ConfigurationItem ]
 			[ ogit:leads  ogit:Organization ]
-			[ ogit:leads  ogit.CustomerSuppor:Group ]
+			[ ogit:leads  ogit.CustomerSupport:Group ]
 			[ ogit:generates  ogit:Timeseries ]
 			[ ogit:generates  ogit:Catalog ]
 			[ ogit:belongs  ogit:Alert ]
