@@ -25,6 +25,7 @@ ogit:CatalogItem
 		ogit:description
 		ogit:id
 		ogit:validTo
+		ogit:validFrom
 	);
 	ogit:indexed-attributes (
 		
