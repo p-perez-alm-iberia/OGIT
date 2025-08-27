@@ -1,0 +1,42 @@
+
+@prefix ogit.Publications:      <http://www.purl.org/ogit/Publications/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Publications:Article
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Article";
+	dcterms:description "An Article is a publication. Could be a newspaper article, or other.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-04-27;";
+	dcterms:creator "esteban.moreno@almato.de";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		ogit:externalId
+		ogit:content
+	);
+	ogit:optional-attributes (
+		ogit.Publications:publicationDate
+		ogit.Publications:tone
+		ogit.Publications:tonePositiveScore
+		ogit.Publications:toneNegativeScore
+		ogit.Publications:tonePolarity
+		ogit:source
+		ogit.Publications:sourceCollectionIdentifier
+		ogit.Publications:sourceDocumentIdentifier
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:allowed (
+			[ ogit:connects  ogit.Publications:Topic ]
+			[ ogit.Publications:mentions ogit.Publications:Statistic ]
+			[ ogit.Publications:mentions ogit:Region ]
+			[ ogit.Publications:mentions ogit:Person ]
+			[ ogit.Publications:mentions ogit:Organization ]
+	);
+.
