@@ -26,6 +26,6 @@ ogit:Count
 		
 	);
 	ogit:allowed (
-		[ ogit:occurs ogit:Region ]	
+		
 	);
 .
