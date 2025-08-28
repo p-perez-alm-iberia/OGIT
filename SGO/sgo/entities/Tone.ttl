@@ -28,6 +28,6 @@ ogit:Tone
 		
 	);
 	ogit:allowed (
-		[ ogit:occurs ogit:Region ]	
+			
 	);
 .
