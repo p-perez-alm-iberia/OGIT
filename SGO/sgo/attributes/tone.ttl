@@ -4,10 +4,10 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Publications:tonePositiveScore
+ogit:tone
         a owl:DatatypeProperty;
         rdfs:subPropertyOf ogit:Attribute;
-        rdfs:label "tonePositiveScore";
-        dcterms:description "Percentage of all words in the articlethat were found to have a positive emotional connotation.";
+        rdfs:label "tone";
+        dcterms:description "A text tone. Average “tone” of the text as a whole.";
         dcterms:valid "start=2019-08-02;";
         dcterms:creator "esteban.moreno@almato.com";

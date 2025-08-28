@@ -4,10 +4,10 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Publications:tonePolarity
+ogit:negativeScore
         a owl:DatatypeProperty;
         rdfs:subPropertyOf ogit:Attribute;
-        rdfs:label "tonePolarity";
-        dcterms:description "Percentage of words that had matches in the tonal dictionary as an indicator of how emotionally polarized or charged the text is.If Polarity is high, but Tone is neutral, this suggests the text was highly emotionally charged, but had roughly equivalent numbers of positively and negatively charged emotional words.";
+        rdfs:label "negativeScore";
+        dcterms:description "Percentage of all words in the articlethat were found to have a negative emotional connotation.";
         dcterms:valid "start=2019-08-02;";
         dcterms:creator "esteban.moreno@almato.com";
