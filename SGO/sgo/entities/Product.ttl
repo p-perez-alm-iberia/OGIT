@@ -20,6 +20,8 @@ ogit:Product
 		ogit:description
 		ogit:class
 		ogit:manufacturer
+		ogit:validFrom
+		ogit:validTo
 	);
 	ogit:indexed-attributes (
 		

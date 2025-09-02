@@ -62,6 +62,7 @@ ogit:Person
 		ogit:dateOfDeath
 		ogit:numberOfChildren
 		ogit:religion
+		ogit:id
 	);
 	ogit:indexed-attributes (
 		ogit:firstName
