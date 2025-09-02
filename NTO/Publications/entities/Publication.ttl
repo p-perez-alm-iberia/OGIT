@@ -1,5 +1,6 @@
 
 @prefix ogit.Publications:      <http://www.purl.org/ogit/Publications/> .
+@prefix ogit.Forum:      		<http://www.purl.org/ogit/Forum/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -20,7 +21,7 @@ ogit.Publications:Publication
 		ogit:content
 	);
 	ogit:optional-attributes (
-		ogit.createdAt
+		ogit:createdAt
 		ogit:type
 		ogit:source
 		ogit:sourceId
@@ -30,11 +31,11 @@ ogit.Publications:Publication
 		
 	);
 	ogit:allowed (
-			[ ogit:connects  ogit.Publications:Topic ]
-			[ ogit.Publications:mentions ogit:Count ]
-			[ ogit.Publications:mentions ogit:Region ]
-			[ ogit.Publications:mentions ogit:Person ]
-			[ ogit.Publications:mentions ogit:Organization ]
+			[ ogit:connects  ogit.Forum:Topic ]
+			[ ogit.Forum:mentions ogit:Count ]
+			[ ogit.Forum:mentions ogit:Region ]
+			[ ogit.Forum:mentions ogit:Person ]
+			[ ogit.Forum:mentions ogit:Organization ]
 			[ ogit:has ogit:Tone ]
 			[ ogit:contains  ogit.Publications:Mention ]
 	);

@@ -19,8 +19,8 @@ ogit:Count
 		ogit:type
 	);
 	ogit:optional-attributes (
-		ogit:count
-		ogit.objectType
+		ogit:value # count
+		ogit:class # objectType
 	);
 	ogit:indexed-attributes (
 		

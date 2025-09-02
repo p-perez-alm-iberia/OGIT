@@ -11,3 +11,4 @@ ogit.Publications:actorCode
         dcterms:description "The complete raw CAMEO code for Actor1 (includes geographic, class, ethnic, religious, and type classes).";
         dcterms:valid "start=2019-08-02;";
         dcterms:creator "esteban.moreno@almato.com";
+.

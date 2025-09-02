@@ -11,3 +11,4 @@ ogit.Publications:ethnicCode
         dcterms:description "The CAMEO ethnic code.";
         dcterms:valid "start=2019-08-02;";
         dcterms:creator "esteban.moreno@almato.com";
+.

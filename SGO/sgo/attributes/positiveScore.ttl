@@ -8,6 +8,7 @@ ogit:positiveScore
         a owl:DatatypeProperty;
         rdfs:subPropertyOf ogit:Attribute;
         rdfs:label "positiveScore";
-        dcterms:description "Percentage of all words in the articlethat were found to have a positive emotional connotation.";
+        dcterms:description "Percentage representing the proportion of elements within an entity that have a postive connotation.";
         dcterms:valid "start=2019-08-02;";
         dcterms:creator "esteban.moreno@almato.com";
+.

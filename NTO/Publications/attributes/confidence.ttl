@@ -11,3 +11,4 @@ ogit.Publications:confidence
         dcterms:description "Percent confidence in the extraction of this event from this Publication.";
         dcterms:valid "start=2019-08-02;";
         dcterms:creator "esteban.moreno@almato.com";
+.

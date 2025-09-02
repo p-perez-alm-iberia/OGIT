@@ -11,3 +11,4 @@ ogit.Publications:sourceDocumentIdentifier
         dcterms:description "Unique external identifier for the source document in the original publication. It can be used to uniquely identify the document and access it if you have the necessary subscriptions or authorizations and/or the document is public access.";
         dcterms:valid "start=2019-08-02;";
         dcterms:creator "esteban.moreno@almato.com";
+.
