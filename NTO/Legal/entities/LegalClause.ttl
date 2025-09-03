@@ -28,6 +28,7 @@ ogit.Legal:LegalClause
 		ogit:lastUpdatedAt
 		ogit:endedAt
 		ogit:sharedWith
+		ogit:cleanContent
 	);
 	ogit:indexed-attributes (
 	);
