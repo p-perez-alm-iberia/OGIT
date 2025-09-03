@@ -23,9 +23,9 @@ ogit.Publications:Publication
 	ogit:optional-attributes (
 		ogit:createdAt
 		ogit:type
-		ogit:source
-		ogit:sourceId
+		ogit:webPage
 		ogit.Publications:sourceDocumentIdentifier
+		ogit:author
 	);
 	ogit:indexed-attributes (
 		
