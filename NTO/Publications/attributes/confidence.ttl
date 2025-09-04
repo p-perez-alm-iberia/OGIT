@@ -9,6 +9,6 @@ ogit.Publications:confidence
         rdfs:subPropertyOf ogit:Attribute;
         rdfs:label "confidence";
         dcterms:description "Percent confidence in the extraction of this event from this Publication.";
-        dcterms:valid "start=2019-08-02;";
+        dcterms:valid "start=2025-09-04;";
         dcterms:creator "esteban.moreno@almato.com";
 .

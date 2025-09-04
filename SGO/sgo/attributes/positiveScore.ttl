@@ -9,6 +9,6 @@ ogit:positiveScore
         rdfs:subPropertyOf ogit:Attribute;
         rdfs:label "positiveScore";
         dcterms:description "Percentage representing the proportion of elements within an entity that have a postive connotation.";
-        dcterms:valid "start=2019-08-02;";
+        dcterms:valid "start=2025-09-04;";
         dcterms:creator "esteban.moreno@almato.com";
 .

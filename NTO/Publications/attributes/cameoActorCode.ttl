@@ -4,11 +4,11 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Publications:ethnicCode
+ogit.Publications:cameoActorCode
         a owl:DatatypeProperty;
         rdfs:subPropertyOf ogit:Attribute;
-        rdfs:label "ethnicCode";
-        dcterms:description "The CAMEO ethnic code.";
-        dcterms:valid "start=2019-08-02;";
+        rdfs:label "cameoActorCode";
+        dcterms:description "The complete raw CAMEO code for Actor1 (includes geographic, class, ethnic, religious, and type classes).";
+        dcterms:valid "start=2025-09-04;";
         dcterms:creator "esteban.moreno@almato.com";
 .
