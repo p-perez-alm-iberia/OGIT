@@ -34,7 +34,7 @@ ogit.Publications:Publication
 	);
 	ogit:allowed (
 			[ ogit:connects  ogit.Forum:Topic ]
-			[ ogit.Forum:mentions ogit.Publications:ReportedStatistic ]
+			[ ogit.Forum:mentions ogit:ReportedStatistic ]
 			[ ogit.Forum:mentions ogit:Region ]
 			[ ogit.Forum:mentions ogit:Person ]
 			[ ogit.Forum:mentions ogit:Organization ]
