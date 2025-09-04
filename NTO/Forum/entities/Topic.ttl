@@ -42,6 +42,6 @@ a given subject.""";
 	ogit:allowed (
 			[ ogit:contains  ogit.Forum:Post ]
 			[ ogit:requires  ogit.Forum:Permission ]
-			[ ogit:contains  ogit.Publications:Article ]
+			[ ogit:contains  ogit.Publications:Publication ]
 	);
 .
