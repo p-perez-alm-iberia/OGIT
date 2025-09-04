@@ -19,7 +19,7 @@ ogit.Publications:Mention
 		
 	);
 	ogit:optional-attributes (
-		ogit.Publication:confidence
+		ogit.Publications:confidence
 		ogit:tone
 	);
 	ogit:indexed-attributes (

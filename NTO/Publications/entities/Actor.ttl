@@ -19,19 +19,19 @@ ogit.Publications:Actor
 		ogit:name
 	);
 	ogit:optional-attributes (
-		ogit.Publication:cameoActorCode
+		ogit.Publications:cameoActorCode
 		ogit:isoCode #country code
-		ogit.Publication:cameoGroupCode #groupCode
-		ogit.Publication:cameoEthnicCode #ethnicCode
+		ogit.Publications:cameoGroupCode #groupCode
+		ogit.Publications:cameoEthnicCode #ethnicCode
 		ogit:religion # list of religions
-		ogit.Publication:cameoRoleCode #roleCodes -> list
+		ogit.Publications:cameoRoleCode #roleCodes -> list
 	);
 	ogit:indexed-attributes (
 		
 	);
 	ogit:allowed (
 		[ ogit:locatedIn ogit:Location ]
-		[ ogit:performs ogit.Publication:Action ]
+		[ ogit:performs ogit.Publications:Action ]
 		[ ogit:belongs ogit:Country ]
 		[ ogit:belongs ogit:Role ]
 		[ ogit:belongs ogit:City ]
