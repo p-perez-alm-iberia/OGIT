@@ -11,3 +11,4 @@ ogit:tone
         dcterms:description "A text tone. Average “tone” of the text as a whole.";
         dcterms:valid "start=2019-08-02;";
         dcterms:creator "esteban.moreno@almato.com";
+.
