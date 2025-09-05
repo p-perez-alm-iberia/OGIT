@@ -20,7 +20,7 @@ ogit.Publications:Actor
 	);
 	ogit:optional-attributes (
 		ogit.Publications:cameoActorCode
-		ogit:isoCode #country code
+		ogit.GeoProfile:isoCode #country code
 		ogit.Publications:cameoGroupCode #groupCode
 		ogit.Publications:cameoEthnicCode #ethnicCode
 		ogit:religion # list of religions
@@ -31,10 +31,10 @@ ogit.Publications:Actor
 	);
 	ogit:allowed (
 		[ ogit:locatedIn ogit:Location ]
+		[ ogit:locatedIn ogit:Region ]
 		[ ogit:performs ogit.Publications:Action ]
-		[ ogit:belongs ogit:Country ]
+		[ ogit:belongs ogit:Region ]
 		[ ogit:belongs ogit:Role ]
-		[ ogit:belongs ogit:City ]
 		[ ogit:belongs ogit:Person ]
 		[ ogit:belongs ogit:Location ]
 	);
