@@ -85,7 +85,8 @@ ogit:Event
 			[ ogit:alerts  ogit.Auth:Account ]
 			[ ogit:has ogit.Politics:Discussion ]
 			[ ogit:registers ogit:Organization ]
-			[ ogit:occurs ogit:Location ]
+			[ ogit:locatedIn ogit:Location ]
+			[ ogit:locatedIn ogit:Region ]
 			[ ogit:affects ogit.Publications:Actor ]
 	);
 .
