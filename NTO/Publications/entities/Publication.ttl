@@ -26,7 +26,7 @@ ogit.Publications:Publication
 		ogit:name
 		ogit:source
 		ogit:webPage
-		ogit.sourceId
+		ogit:sourceId
 		ogit:author
 	);
 	ogit:indexed-attributes (
