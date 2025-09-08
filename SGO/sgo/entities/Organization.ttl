@@ -101,6 +101,7 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 			[ ogit:supervises  ogit.ServiceManagement:Ticket ]
 			[ ogit:supervises  ogit.ServiceManagement:Problem ]
 			[ ogit:supervises  ogit.ServiceManagement:Incident ]
+			[ ogit:supervises  ogit.ServiceManagement:ServiceRequest ]
 			[ ogit:governs  ogit:Organization ]
 			[ ogit:governs ogit:Region ]
 			[ ogit:approves  ogit:ConfigurationItem ]
