@@ -46,6 +46,7 @@ ogit.ServiceManagement:Problem
 			[ ogit:relates  ogit.ServiceManagement:Incident ]
 			[ ogit:relates  ogit.ServiceManagement:ChangeRequest ]
 			[ ogit:relates  ogit.ServiceManagement:Order ]
+			[ ogit:relates  ogit.ServiceManagement:ServiceRequest ]
 			[ ogit:causes  ogit.ServiceManagement:Problem ]
 			[ ogit:causes  ogit.ServiceManagement:ChangeRequest ]
 			[ ogit:assignedTo  ogit:Person ]

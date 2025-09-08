@@ -55,6 +55,7 @@ ogit.ServiceManagement:Order
 			[ ogit:relates  ogit.ServiceManagement:Incident ]
 			[ ogit:relates  ogit.ServiceManagement:ChangeRequest ]
 			[ ogit:relates  ogit.ServiceManagement:Order ]
+			[ ogit:relates  ogit.ServiceManagement:ServiceRequest ]
 			[ ogit:relates  ogit:Contract ]
 			[ ogit:causes  ogit.ServiceManagement:Ticket ]
 			[ ogit:causes  ogit.ServiceManagement:ChangeRequest ]

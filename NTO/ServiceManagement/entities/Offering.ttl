@@ -52,6 +52,7 @@ ogit.ServiceManagement:Offering
 			[ ogit:contains  ogit.ServiceManagement:Service ]
 			[ ogit:contains  ogit:CatalogItem ]
 			[ ogit:contains  ogit.Cost:CostElement ]
+			[ ogit:relates  ogit.ServiceManagement:ServiceRequest ]
 			[ ogit:locatedIn  ogit:Location ]
 			[ ogit:availableIn  ogit:Region ]
 	);

@@ -28,11 +28,12 @@ ogit.CustomerSupport:ChatSession
     ) ;
     ogit:indexed-attributes   ( ) ;
     ogit:allowed              (
-		[ ogit:belongs ogit.CustomerSupport:Ticket ]
-		[ ogit:belongs ogit.ServiceManagement:Ticket ]
-		[ ogit:belongs ogit.ServiceManagement:Problem ]
-		[ ogit:belongs ogit.ServiceManagement:Incident ]
-		[ ogit:belongs ogit.ServiceManagement:ChangeRequest ]
-		[ ogit:belongs ogit:Organization ]
+    [ ogit:belongs ogit.CustomerSupport:Ticket ]
+    [ ogit:belongs ogit.ServiceManagement:Ticket ]
+    [ ogit:belongs ogit.ServiceManagement:Problem ]
+    [ ogit:belongs ogit.ServiceManagement:Incident ]
+    [ ogit:belongs ogit.ServiceManagement:ChangeRequest ]
+    [ ogit:belongs ogit.ServiceManagement:ServiceRequest ]
+    [ ogit:belongs ogit:Organization ]
     ) ;
 .

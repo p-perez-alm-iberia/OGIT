@@ -75,6 +75,7 @@ ogit.ServiceManagement:Ticket
 			[ ogit:assignedTo  ogit.CustomerSupport:Group ]
 			[ ogit:corresponds  ogit.Automation:AutomationIssue ]
 			[ ogit:corresponds  ogit:CatalogItem ]
+			[ ogit:corresponds  ogit.ServiceManagement:ServiceRequest ]
 			[ ogit:affects  ogit:Person ]
 			[ ogit:contains  ogit:Email ]
 			[ ogit:affects  ogit.MARS:Application ]
