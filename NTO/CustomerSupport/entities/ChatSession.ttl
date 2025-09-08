@@ -33,6 +33,7 @@ ogit.CustomerSupport:ChatSession
 		[ ogit:belongs ogit.ServiceManagement:Problem ]
 		[ ogit:belongs ogit.ServiceManagement:Incident ]
 		[ ogit:belongs ogit.ServiceManagement:ChangeRequest ]
+    [ ogit:belongs ogit.ServiceManagement:ServiceRequest ]
 		[ ogit:belongs ogit:Organization ]
     ) ;
 .
