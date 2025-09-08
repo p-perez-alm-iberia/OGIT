@@ -14,11 +14,11 @@ ogit.FinancialMarket:Activity
   ogit:parent ogit:Node;
   ogit:mandatory-attributes (
     ogit:type
-    ogit:code
   );
   ogit:optional-attributes (
     ogit:source
     ogit:description
+    ogit:code
   );
   ogit:indexed-attributes (
   );
