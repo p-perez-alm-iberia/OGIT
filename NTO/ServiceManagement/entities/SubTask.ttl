@@ -66,7 +66,7 @@ Comman alternative names with same meaning are: task, activity, work order.""";
 			[ ogit:belongs  ogit.ServiceManagement:SubTask ]
 			[ ogit:belongs  ogit.ServiceManagement:SubTask ]
 			[ ogit:assignedTo  ogit.CustomerSupport:Group ]
-			[ ogit:belongs  ogit.CustomerSupport:ServiceRequest ]
+			[ ogit:belongs  ogit.ServiceManagement:ServiceRequest ]
 			[ ogit:assignedTo  ogit:Person ]
 			[ ogit:assignedTo  ogit:Organization ]
 			[ ogit:precedes  ogit.ServiceManagement:SubTask ]
