@@ -50,6 +50,7 @@ ogit.ServiceManagement:Service
 			[ ogit:generates  ogit.ServiceManagement:Report ]
 			[ ogit:requires  ogit.ServiceManagement:Service ]
 			[ ogit:requires  ogit.ServiceManagement:Action ]
+			[ ogit:relates  ogit.ServiceManagement:ServiceRequest ]
 			[ ogit:opens  ogit.ServiceManagement:Ticket ]
 			[ ogit:opens  ogit.ServiceManagement:Incident ]
 			[ ogit:implements  ogit.Software:Application ]
