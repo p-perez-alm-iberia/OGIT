@@ -18,7 +18,8 @@ ogit.FinancialMarket:Activity
   ogit:optional-attributes (
     ogit:source
     ogit:description
-    ogit:code
+    ogit:identifierCode
+    ogit:codeType
   );
   ogit:indexed-attributes (
   );
