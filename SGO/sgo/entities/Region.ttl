@@ -26,8 +26,6 @@ ogit:Region
 		ogit:timeZone
 		ogit.GeoProfile:isoCode
 		ogit.GeoProfile:politicalSystem
-		ogit.GeoProfile:population
-		ogit.GeoProfile:agriculturalLandPercentage
 		ogit.GeoProfile:spokenLanguages
 		ogit:sharedWith
 	);
