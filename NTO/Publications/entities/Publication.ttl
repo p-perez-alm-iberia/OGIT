@@ -38,6 +38,7 @@ ogit.Publications:Publication
 			[ ogit.Forum:mentions ogit:Region ]
 			[ ogit.Forum:mentions ogit:Person ]
 			[ ogit.Forum:mentions ogit:Organization ]
+			[ ogit.Forum:mentions ogit:Location ]
 			[ ogit:has ogit:Tone ]
 			[ ogit:contains  ogit.Publications:Mention ]
 	);
