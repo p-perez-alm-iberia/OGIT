@@ -30,6 +30,8 @@ Organization. Similar to http://purl.org/goodrelations/v1#Location""";
 	);
 	ogit:optional-attributes (
 		ogit:description
+		ogit:longitude
+		ogit:latitude
 	);
 	ogit:indexed-attributes (
 		

@@ -26,6 +26,6 @@ ogit:ReportedStatistic
 		
 	);
 	ogit:allowed (
-		
+		[ ogit:references  ogit:Region ]
 	);
 .
