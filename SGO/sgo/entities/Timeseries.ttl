@@ -17,6 +17,12 @@ ogit:Timeseries
 	);
 	ogit:optional-attributes (
 		ogit:unit
+		ogit:unitDescription
+		ogit:value # Current value
+		ogit:valueDate # Date for which the value is valid
+		ogit:type # type of value 
+		ogit:source
+		ogit:sourceId
 		ogit:name
 		ogit:description
 		ogit:instance
