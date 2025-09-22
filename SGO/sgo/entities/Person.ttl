@@ -19,6 +19,7 @@
 @prefix ogit.Health.Diagnostics: <http://www.purl.org/ogit/Health/Diagnostics/> .
 @prefix ogit.Location: 			<http://www.purl.org/ogit/Location/> .
 @prefix ogit.SalesDistribution: <http://www.purl.org/ogit/SalesDistribution/> .
+@prefix ogit.Publications: <http://www.purl.org/ogit/Publications/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.UserMeta:          <http://www.purl.org/ogit/UserMeta/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
@@ -204,5 +205,6 @@ ogit:Person
 			[ ogit:issues ogit.Politics:DisciplinaryMeasure ]
 			[ ogit:has ogit.Politics:Reaction ]
 			[ ogit:has ogit.Politics:Mandate ]
+			[ ogit:writes ogit.Publications:Publication ]
 	);
 .
