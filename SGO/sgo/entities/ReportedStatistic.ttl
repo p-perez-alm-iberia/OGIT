@@ -27,5 +27,6 @@ ogit:ReportedStatistic
 	);
 	ogit:allowed (
 		[ ogit:references  ogit:Region ]
+		[ ogit.Forum:mentions  ogit:Location ]
 	);
 .
