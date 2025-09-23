@@ -205,6 +205,6 @@ ogit:Person
 			[ ogit:issues ogit.Politics:DisciplinaryMeasure ]
 			[ ogit:has ogit.Politics:Reaction ]
 			[ ogit:has ogit.Politics:Mandate ]
-			[ ogit:writes ogit.Publications:Publication ]
+			[ ogit:creates ogit.Publications:Publication ]
 	);
 .
