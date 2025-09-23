@@ -204,5 +204,6 @@ ogit:Person
 			[ ogit:issues ogit.Politics:DisciplinaryMeasure ]
 			[ ogit:has ogit.Politics:Reaction ]
 			[ ogit:has ogit.Politics:Mandate ]
+			[ ogit:equals ogit:Equivalence ]
 	);
 .
