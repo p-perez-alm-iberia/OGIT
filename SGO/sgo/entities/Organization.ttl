@@ -22,6 +22,7 @@
 @prefix ogit.FinancialMarket:              <http://www.purl.org/ogit/FinancialMarket/> .
 @prefix ogit.Health.Diagnostics:        <http://www.purl.org/ogit/Health/Diagnostics/> .
 @prefix ogit.Schedule:              <http://www.purl.org/ogit/Schedule/> .
+@prefix ogit.Publications: <http://www.purl.org/ogit/Publications/> .
 @prefix ogit:					<http://www.purl.org/ogit/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -147,5 +148,6 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 			[ ogit:issues ogit.Legal:LegalNorm ]
 			[ ogit:conducts ogit.FinancialMarket:Activity ]
 			[ ogit:supports  ogit:Mapping ]
+			[ ogit:publishes ogit.Publications:Publication ]
 	);
 .
