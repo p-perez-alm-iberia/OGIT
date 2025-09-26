@@ -28,6 +28,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Legal:        <http://www.purl.org/ogit/Legal/> .
+@prefix ogit.Documents:        <http://www.purl.org/ogit/Documents/> .
 
 ogit:Organization
 	a rdfs:Class;
@@ -101,6 +102,7 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 			[ ogit:contains  ogit:Organization ]
 			[ ogit:concludes  ogit:Contract ]
 			[ ogit:provides  ogit:ConfigurationItem ]
+			[ ogit:provides  ogit.Documents:Document ]
 			[ ogit:supervises  ogit.ServiceManagement:SubTask ]
 			[ ogit:supervises  ogit.ServiceManagement:ChangeRequest ]
 			[ ogit:supervises  ogit.ServiceManagement:Order ]
