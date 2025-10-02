@@ -72,6 +72,7 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 		ogit.Accounting:signatoryRule
 		ogit:codeType
 		ogit:identifierCode
+		ogit:foundingDate
 	);
 	ogit:indexed-attributes (
 		ogit:name

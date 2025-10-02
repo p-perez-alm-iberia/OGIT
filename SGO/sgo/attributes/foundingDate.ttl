@@ -1,14 +1,14 @@
-@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Accounting:signatoryRule
+ogit:foundingDate
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "signatoryRule";
-	dcterms:description "A signatory Rule (in the German Legal Sense), either for a company or a company officer";
+	rdfs:label "foundingDate";
+	dcterms:description "The founding date of a company or other entity, in YYYY-MM-DD (ISO 8601).";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2025-10-02;";
 	dcterms:creator "Moritz Vannahme";
 .
