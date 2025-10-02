@@ -27,6 +27,7 @@ ogit:Role
 	ogit:optional-attributes (
 		ogit:description
 		ogit:status
+		ogit.Accounting:signatoryRule
 	);
 	ogit:indexed-attributes (
 		

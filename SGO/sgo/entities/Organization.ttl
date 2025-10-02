@@ -69,6 +69,7 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 		ogit:source
 		ogit.FinancialMarket:value
 		ogit.FinancialMarket:currency
+		ogit.Accounting:signatoryRule
 	);
 	ogit:indexed-attributes (
 		ogit:name
