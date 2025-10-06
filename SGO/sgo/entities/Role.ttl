@@ -3,6 +3,7 @@
 @prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
 @prefix ogit.HR.Recruiting:     <http://www.purl.org/ogit/HR/Recruiting/> .
@@ -27,6 +28,7 @@ ogit:Role
 	ogit:optional-attributes (
 		ogit:description
 		ogit:status
+		ogit.Accounting:signatoryRule
 	);
 	ogit:indexed-attributes (
 		

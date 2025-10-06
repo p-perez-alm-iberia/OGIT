@@ -26,5 +26,6 @@ ogit.Location:Address
   ogit:indexed-attributes (
   );
   ogit:allowed (
+    [ ogit:locatedIn ogit:Location]
   );
 .
