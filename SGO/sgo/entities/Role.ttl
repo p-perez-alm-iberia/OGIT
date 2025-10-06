@@ -29,6 +29,8 @@ ogit:Role
 		ogit:description
 		ogit:status
 		ogit.Accounting:signatoryRule
+		ogit:codeType
+		ogit:identifierCode
 	);
 	ogit:indexed-attributes (
 		
