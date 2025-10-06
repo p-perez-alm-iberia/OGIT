@@ -14,21 +14,22 @@
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
-@prefix ogit.CustomerSupport: <http://www.purl.org/ogit/CustomerSupport/> .
+@prefix ogit.CustomerSupport:   <http://www.purl.org/ogit/CustomerSupport/> .
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
 @prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
-@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
-@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
-@prefix ogit.FinancialMarket:              <http://www.purl.org/ogit/FinancialMarket/> .
-@prefix ogit.Health.Diagnostics:        <http://www.purl.org/ogit/Health/Diagnostics/> .
-@prefix ogit.Schedule:              <http://www.purl.org/ogit/Schedule/> .
-@prefix ogit.Publications: <http://www.purl.org/ogit/Publications/> .
+@prefix ogit.Factory:   		<http://www.purl.org/ogit/Factory/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.FinancialMarket:   <http://www.purl.org/ogit/FinancialMarket/> .
+@prefix ogit.Health.Diagnostics:<http://www.purl.org/ogit/Health/Diagnostics/> .
+@prefix ogit.Schedule:          <http://www.purl.org/ogit/Schedule/> .
+@prefix ogit.Publications:      <http://www.purl.org/ogit/Publications/> .
+@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
+@prefix ogit.Legal:             <http://www.purl.org/ogit/Legal/> .
+@prefix ogit.Documents:         <http://www.purl.org/ogit/Documents/> .
 @prefix ogit:					<http://www.purl.org/ogit/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.Legal:        <http://www.purl.org/ogit/Legal/> .
-@prefix ogit.Documents:        <http://www.purl.org/ogit/Documents/> .
 
 ogit:Organization
 	a rdfs:Class;
