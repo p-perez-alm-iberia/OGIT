@@ -24,12 +24,11 @@ ogit.ServiceManagement:ServiceMapping
 		ogit:id
         ogit:source
         ogit:category
-        ogit.Automation:osName
-        ogit.MARS.Software:serviceName
+        ogit:type # e.g. Operating system
 	);
 	ogit:indexed-attributes (
 	);
 	ogit:allowed (
-
+		[ ogit:references  ogit:CatalogItem ]
 	);
 .
