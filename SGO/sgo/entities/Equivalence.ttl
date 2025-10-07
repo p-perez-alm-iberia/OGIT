@@ -21,5 +21,9 @@ ogit:Equivalence
 	ogit:indexed-attributes (
 	);
 	ogit:allowed (
+		[ ogit:connects  ogit:Region ]
+		[ ogit:connects  ogit:Location ]
+		[ ogit:connects ogit:Organization ]
+		[ ogit:connects ogit:Person ]
 	);
 .
