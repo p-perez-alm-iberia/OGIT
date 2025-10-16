@@ -41,6 +41,7 @@ ogit:Comment
 		ogit:source
 		ogit:createdAt
 		ogit:public
+		ogit:lastUpdatedAt
 	);
 	ogit:indexed-attributes (
 		
