@@ -32,11 +32,11 @@ ogit.Publications:Actor
 	);
 	ogit:allowed (
 		[ ogit:locatedIn ogit:Location ]
-		[ ogit:locatedIn ogit:Region ]
 		[ ogit:performs ogit.Publications:Action ]
 		[ ogit:belongs ogit:Region ]
-		[ ogit:belongs ogit:Role ]
-		[ ogit:belongs ogit:Person ]
-		[ ogit:belongs ogit:Location ]
+		[ ogit:belongs ogit.GeoProfile:Ethnicity ]
+		[ ogit:has ogit:Role ]
+		[ ogit:belongs ogit.Publications:ActorType ]
+		[ ogit:follows ogit.Religion:BeliefSystem ]
 	);
 .
