@@ -23,6 +23,6 @@ ogit.Publications:ActionType
 	ogit:indexed-attributes (
 	);
 	ogit:allowed (
-		[ ogit:isPartOf ogit.Publication:ActionType ]
+		[ ogit:isPartOf ogit.Publications:ActionType ]
 	);
 .
