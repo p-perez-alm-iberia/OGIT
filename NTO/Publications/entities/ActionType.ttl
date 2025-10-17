@@ -3,30 +3,26 @@
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 
-ogit.Publications:Mention
+ogit.Publications:ActionType
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "Mention";
-	dcterms:description "Describes a Mention of an Event in a Publication.";
+	rdfs:label "ActionType";
+	dcterms:description "Describes a type of Action done by an Actor.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2025-09-04;";
+	dcterms:valid "start=2025-10-17;";
 	dcterms:creator "esteban.moreno@almato.de";
 	ogit:scope "NTO";
 	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
-		
+		ogit:identifierCode
+		ogit:codeType
 	);
 	ogit:optional-attributes (
-		ogit.Publications:confidence
-		ogit:tone
-		ogit:createdAt
 	);
 	ogit:indexed-attributes (
-		
 	);
 	ogit:allowed (
-		[ ogit:relates ogit:Event]
+		[ ogit:isPartOf ogit.Publication:ActionType ]
 	);
 .

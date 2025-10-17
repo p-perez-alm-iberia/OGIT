@@ -27,5 +27,7 @@ ogit.Publications:Action
 	ogit:allowed (
 		[ ogit:affects ogit.Publications:Actor ]
 		[ ogit:assignedTo ogit:Event ]
+		[ ogit:locatedAt ogit:Location ]
+		[ ogit:has ogit:ActionType ]
 	);
 .
