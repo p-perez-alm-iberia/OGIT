@@ -1,9 +1,8 @@
 @prefix ogit:			<http://www.purl.org/ogit/> .
-@prefix ogit.Health.Diagnostics:        <http://www.purl.org/ogit/Health/Diagnostics/> .
-@prefix ogit.Mobile:            <http://www.purl.org/ogit/Mobile/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.GeoProfile: <http://www.purl.org/ogit/GeoProfile/> .
 
 ogit.GeoProfile:Ethnicity
 	a rdfs:Class;
