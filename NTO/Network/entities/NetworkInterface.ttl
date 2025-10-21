@@ -27,5 +27,6 @@ ogit.Network:NetworkInterface
 	);
 	ogit:allowed (
 			[ ogit:complies  ogit.Network:NetworkSetting ]
+			[ ogit:locatedAt  ogit:Location ]
 	);
 .
