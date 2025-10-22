@@ -21,6 +21,7 @@ ogit.Network:NetworkInterface
 	);
 	ogit:optional-attributes (
 		ogit:id
+		ogit:ipAddress
 	);
 	ogit:indexed-attributes (
 		
