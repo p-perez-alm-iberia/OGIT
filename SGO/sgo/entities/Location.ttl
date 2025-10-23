@@ -33,6 +33,7 @@ Organization. Similar to http://purl.org/goodrelations/v1#Location""";
 		ogit:longitude
 		ogit:latitude
 		ogit:altitude
+		ogit:type
 	);
 	ogit:indexed-attributes (
 		
