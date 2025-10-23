@@ -21,11 +21,13 @@ ogit.Network:NetworkInterface
 	);
 	ogit:optional-attributes (
 		ogit:id
+		ogit:ipAddress
 	);
 	ogit:indexed-attributes (
 		
 	);
 	ogit:allowed (
 			[ ogit:complies  ogit.Network:NetworkSetting ]
+			[ ogit:locatedAt  ogit:Location ]
 	);
 .
