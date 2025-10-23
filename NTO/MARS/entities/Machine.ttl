@@ -67,5 +67,6 @@ ogit.MARS:Machine
 			[ ogit:contains  ogit.Network:NetworkInterface ]
 			[ ogit:runsOn  ogit.Datacenter.Virtual:Cluster ]
 			[ ogit:runsOn  ogit.Datacenter.Virtual:ResourcePool ]
+			[ ogit:locatedAt  ogit:Location ]
 	);
 .
