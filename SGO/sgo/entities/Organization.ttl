@@ -132,6 +132,7 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 			[ ogit:owns  ogit.MRO.Aviation:Aircraft ]
 			[ ogit:owns  ogit.Automation:MARSNode ]
 			[ ogit:owns  ogit:Asset ]
+			[ ogit:owns  ogit.Network:NetworkInterface]
 			[ ogit:defines  ogit:Role ]
 			[ ogit:defines  ogit.ServiceManagement:Offering ]
 			[ ogit:uses  ogit:Product ]
