@@ -3,6 +3,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Security: 			<http://www.purl.org/ogit/Security/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
 
 ogit.Security:Incident
 	a rdfs:Class;
@@ -30,6 +31,7 @@ ogit.Security:Incident
 		
 	);
 	ogit:allowed (
-			[ ogit:causes  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:causes  ogit.ServiceManagement:Incident ]
+			[ ogit:affects ogit.Network:NetworkInterface ]
 	);
 .
