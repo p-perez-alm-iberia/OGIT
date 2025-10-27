@@ -37,6 +37,7 @@ Organization. Similar to http://purl.org/goodrelations/v1#Location""";
 		ogit:postalCode
 		ogit:type
 		ogit:lastUpdatedAt
+		ogit:externalId
 	);
 	ogit:indexed-attributes (
 		
